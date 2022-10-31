@@ -11,9 +11,16 @@ h1 {
 }
 
  nav {
-    display: inline;
+    display: inline-block;
 } 
 
 nav li {
-    display:inline;
+    display: inline;
+}
+nav a{ 
+    text-transform: uppercase;
+    color:blue;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
 }
